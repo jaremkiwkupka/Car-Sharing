@@ -189,7 +189,7 @@ body {
     flex-direction: column;
 }
 .blog {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
     background-color: var(--color-white);
 }
 .blog__header {
