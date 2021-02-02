@@ -1,6 +1,14 @@
 :root {
+    /*fonts*/
     --nunitoSans : 'Nunito Sans', sans-serif;
     --openSans: 'Open Sans', sans-serif;
+
+    /*font-weight*/
+    --font-black: 800;
+    --font-bold: 600;
+    --font-regular: 400;
+    --font-light: 300;
+
     --color-primary: #FF0000;
     --color-white: #FFFFFF;
     --color-black: #000000;
