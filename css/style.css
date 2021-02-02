@@ -17,3 +17,13 @@
     --color-medium-grey: #B2B2B2;
     --color-light-grey: #D1D1D1;
 }
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--nunitoSans)
+}
+.container {
+    width: 1088px;
+    margin: 0 auto;
+}
