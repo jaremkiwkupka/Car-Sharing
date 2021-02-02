@@ -53,7 +53,7 @@ body {
 
 .hero {
     background-image: url("../images/page_header_img.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .header .container {
