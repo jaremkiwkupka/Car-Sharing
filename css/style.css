@@ -27,6 +27,27 @@ body {
     width: 1088px;
     margin: 0 auto;
 }
+.title {
+    font-size: 35px;
+    font-weight: var(--font-bold);
+    text-transform: uppercase;
+}
+.section__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__header::before,
+.section__header::after {
+    content: "";
+    background-color: var(--color-primary);
+    height: 3px;
+    width: 50px;
+    box-shadow: 0px 3px 6px #FF00004D;
+}
+.margin {
+    margin: 80px;
+}
 
 /*HERO SECTION*/
 
@@ -157,3 +178,57 @@ body {
     background-color: var(--color-white);
     color: var(--color-primary);
 }
+
+/*BLOG SECTION*/
+
+.blog .container {
+    display: flex;
+    justify-content: center;
+}
+.blog .container:first-child {
+    flex-direction: column;
+}
+.blog {
+    margin-bottom: 80px;
+    background-color: var(--color-white);
+}
+.blog__header {
+    padding: 0 10px;
+}
+.blog__articles {
+    display: flex;
+    flex-direction: row;
+}
+.blog--img {
+    margin-right: 16px;
+}
+.blog--title {
+    background-color: var(--color-white);
+    font-size: 19px;
+    font-weight: var(--font-regular);
+    color: var(--color-grey);
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+.blog--text {
+    font-size: 14px;
+    font-weight: var(--font-light);
+    color: var(--color-grey);
+    margin: 15px 92px 15px 0;
+}
+.article__btn {
+    padding: 10px 29px;
+    background-color: var(--color-primary);
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0px 3px 6px #FF00004D;
+}
+.article__btn a {
+    font-family: var(--nunitoSans);
+    font-size: 14px;
+    font-weight: var(--font-regular);
+    color: var(--color-white);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
