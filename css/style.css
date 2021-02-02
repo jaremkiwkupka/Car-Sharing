@@ -232,3 +232,49 @@ body {
     text-decoration: none;
 }
 
+/*SERVICE SECTION*/
+
+.service .container {
+    display: flex;
+    justify-content: center;
+}
+.service .container:first-child {
+    flex-direction: column;
+}
+.service {
+    background-color: var(--color-dark-grey);
+    align-self: center;
+}
+.service__header {
+    color: var(--color-white);
+    padding: 0 10px;
+}
+.service__articles {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.article--box {
+    margin: 0 20px;
+}
+.service--title {
+    font-size: 19px;
+    font-weight: var(--font-regular);
+    color: var(--color-white);
+    text-transform: uppercase;
+}
+.service--text {
+    font-size: 14px;
+    font-weight: var(--font-regular);
+    color: #B2B2B2;
+    font-family: var(--openSans);
+}
+.service {
+    padding-bottom: 80px;
+}
+.service--img,
+.service--title,
+.service--text {
+    margin-bottom: 15px;
+}
+
