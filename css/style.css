@@ -1,4 +1,11 @@
 :root {
     --nunitoSans : 'Nunito Sans', sans-serif;
     --openSans: 'Open Sans', sans-serif;
+    --color-primary: #FF0000;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-dark-grey: #28272C;
+    --color-grey: #6A6A6A;
+    --color-medium-grey: #B2B2B2;
+    --color-light-grey: #D1D1D1;
 }
