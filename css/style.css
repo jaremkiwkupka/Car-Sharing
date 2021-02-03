@@ -277,4 +277,106 @@ body {
 .service--text {
     margin-bottom: 15px;
 }
+/*CONTACT SECTION*/
+
+.contact .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.contact .container:first-child {
+    flex-direction: column;
+}
+.contact {
+    margin-bottom: 80px;
+}
+.contact__header {
+    padding: 0 10px;
+}
+.contact__content {
+    display: flex;
+}
+.contact__image {
+    margin-right: 20px;
+}
+.contact__form form {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+[type="text"],
+[type="email"],
+textarea {
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+    width: 444px;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: #B2B2B2;
+}
+[type="text"] {
+    margin-top: 0;
+}
+[type="text"]:active,
+[type="email"]:active,
+textarea:active,
+[type="checkbox"] {
+    border: 1px solid var(--color-primary);
+    box-shadow: 0px 3px 6px #FF00004D;
+}
+textarea {
+    min-height: 140px;
+}
+[type="checkbox"] + span {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+    display: block;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+[type="checkbox"] {
+    visibility: hidden;
+    position: absolute;
+}
+[type="checkbox"]:checked + span {
+    background-image: url("../images/check.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.checkbox--text {
+    font-size: 10px;
+    font-weight: var(--font-light);
+    color: var(--color-medium-grey);
+    flex-shrink: 1;
+}
+.checkbox {
+    width: 440px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.checkbox--position {
+    display: flex;
+}
+.send__btn {
+    padding: 10px 29px;
+    background-color: var(--color-white);
+    color: var(--color-medium-grey);
+    border: 1px solid var(--color-medium-grey);
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: var(--font-bold);
+    cursor: pointer;
+}
+.send__btn:focus,
+.send__btn:hover {
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    box-shadow: 0px 3px 6px #FF00004D;
+}
 
